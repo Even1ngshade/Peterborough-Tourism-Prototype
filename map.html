@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The best peterborough tourism website on the net!">
+  <meta name="keywords" content="peterborough tourism hampton orton cathedral">
+  <title>Peterborough Tourism</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Teko&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="assets/LogoV1.png">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <a class="a2" href="index.html"><img src="assets/LogoV1.png"></a>
+    </div>
+    <div id="menu" class="menu">
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-times"></i>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html"><h2>Home</h2></a></li>
+        <li><a id="au-btn"><h2>About Us</h2></a></li>
+        <li><a href="pts.html"><h2>Places to Stay</h2></a></li>
+        <li class="ev-btn"><a href="ttd.html"><h2>Things to Do</h2></a></li>
+        <li><a href="contact.html"><h2>Contact Us</h2></a></li>
+        <li><a href="map.html"><h2>Map</h2></a></li>
+        <li class="sei"><i class="fas fa-search"></i>
+          <div class="dd" id="dd">
+            <input placeholder="Search...">
+          </div>
+        </li>
+        <li><a href="loginm.html" class="sign-in"><i class="fas fa-user"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+</body>
+<section class="sm">
+    <h2>Location of Headquaters for Peterborough Tourism</h2>
+    <div class="sm2">
+      <div class="sm3">
+        <h3>University Centre Peterborough,</h3>
+        <h3>Peterborough,</h3>
+        <h3>PE1 4DZ</h3>
+      </div>
+      <div class="ifmap1">
+        <iframe class="ifmap2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2424.0511150382818!2d-0.23201948419004464!3d52.58676907982681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877f0e5675fed81%3A0xcf0deaec62fac3d7!2sUniversity%20Centre%20Peterborough!5e0!3m2!1sen!2suk!4v1683279416361!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+<footer class="f1">
+  <div class="footer-top flex-container">
+    <div class="flex-item f-i1">
+      <span><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></span>
+      <span><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></span>
+      <span><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></span>
+      <span><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></span>
+      <hr>
+      <span><a href="#" onclick="return false"><i class="fas fa-text-height"></i></a></span>
+      <div class="toggle1-container">
+        <input type="checkbox" id="toggle1" onchange="addContrast()">
+        <label for="toggle1">
+          <div class="dm">
+            <p>Dark Mode</p>
+          </div>
+          <div class="track"></div>
+          <div class="slider"></div>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="flex-container f-c2">
+    <div class="flex-item f-i4">
+      <h6>©2023 Peterborough Tourism. All rights reserved.</h6>
+    </div>
+  </div>
+</footer>
+<script>
+  document.getElementById('menu').addEventListener('click', function () {
+    document.getElementById('header').classList.toggle('dropped');
+  })
+  function addContrast() {
+    document.body.classList.toggle('contrast');
+  }
+</script>
+
+</html>

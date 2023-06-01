@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The best peterborough tourism website on the net!">
+    <meta name="keywords" content="peterborough tourism hampton orton cathedral">
+    <title>Peterborough Tourism</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Teko&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="assets/LogoV1.png">
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <a class="a2" id="lhome-btn"><img src="assets/LogoV1.png"></a>
+      </div>
+      <div id="menu" class="menu">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </div>
+      <nav>
+        <ul>
+          <li><a id="home-btn"><h2>Home</h2></a></li>
+          <li><a id="au-btn"><h2>About Us</h2></a></li>
+          <li><a href="pts.html"><h2>Places to Stay</h2></a></li>
+          <li><a href="ttd.html"><h2>Things to Do</h2></a></li>
+          <li><a href="contact.html"><h2>Contact Us</h2></a></li>
+          <li><a href="map.html"><h2>Map</h2></a></li>
+          <li class="sei"><i class="fas fa-search"></i>
+            <div class="dd" id="dd">
+              <input placeholder="Search...">
+            </div>
+          </li>
+          <li><a href="loginm.html" class="sign-in"><i class="fas fa-user"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="gap"></section>
+    <section>
+      <div class="slideshow-container" data-cycle="10000">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="assets/Peterborough-Cathedral.jpg">
+          <div class="text">Peterborough Cathedral</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="assets/Peterborough-Town-Centre.jpg">
+          <div class="text">Peterborough Town Centre</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="assets/Elton-Hall.jpg">
+          <div class="text">Elton Hall</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="assets/Burghley-House.jpg">
+          <div class="text">Burghley House</div>
+        </div>
+      </div>
+    </section>
+    <section class="welcome">
+      <div>
+        <h4>Welcome to Peterborough in 2023</h4>
+        <div class="col">
+          <h5>Peterborough is a city in eastern England. It is primarily known for its historic cathedral, but you can also find additional history and modern family-friendly fun here, too. The local history is quite vast with one site offering people the opportunity to step back into the Bronze Age.</h5>
+        </div>
+      </div>
+    </section>
+    <section id="au">
+      <div>
+        <h4>About Us</h4>
+        <div class="col">
+          <h5>We here at Peterborough Tourism are happy to present our city to the people of the world and believe that you'll find many ways and places in which you can enjoy yourselves, whether that be for food and leisure or for fun and games, such as water sports, paintballing, festivals, etc.</h5>
+        </div>
+      </div>
+    </section>
+    <section class="twitter">
+      <a class="twitter-timeline" data-width="500" data-height="600" data-theme="dark" href="https://twitter.com/VisitPeterboro">Tweets by visitPeterborough</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </section>
+    <section class="CuEv">
+      <div class="col">
+        <h4>Current Events Calendar</h4>
+        <a href="events.html#cEv">
+          <img class="CEC" src="assets/CEC(temp).png">
+        </a>
+      </div>
+    </section>
+    <section class="UpEv">
+      <div class="col">
+        <h4>Upcoming Events Calendar</h4>
+        <a href="events.html#upCEv">
+          <img class="UEC" src="assets/UEC(temp).png">
+        </a>
+      </div>
+    </section>
+    <section class="RecArHo">
+      <div class="col">
+        <h4>Recommended Areas/Hotspots</h4>
+        <div class="slideshow-container" data-cycle="10000">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="assets/Ferry-Meadows.jpg">
+            <div class="text">Ferry Meadows</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="assets/Peterborough-Museum-and-Art-Gallery.jpg">
+            <div class="text">Peterborough Museum & Art Gallery</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/Showcase-Cinema.jpg">
+            <div class="text">Showcase Cinema</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div class="footer-top flex-container">
+       <div class="flex-item f-i1">
+        <span><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></span>
+        <span><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></span>
+        <span><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></span>
+        <span><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></span>
+        <hr>
+        <span><a href="#" onclick="return false"><i class="fas fa-text-height"></i></a></span>
+        <div class="toggle1-container">
+          <input type="checkbox" id="toggle1" onchange="addContrast()">
+          <label for="toggle1">
+            <div class="dm"><p>Dark Mode</p></div>
+            <div class="track"></div>
+            <div class="slider"></div>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="flex-container f-c2">
+      <div class="flex-item f-i4">
+        <h6>©2023 Peterborough Tourism. All rights reserved.</h6>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('menu').addEventListener('click', function() {
+      document.getElementById('header').classList.toggle('dropped');
+    })
+    document.getElementById('home-btn').addEventListener('click', function() {
+      document.getElementById('home').scrollIntoView({behavior: 'smooth', block: 'center'});
+    })
+    document.getElementById('lhome-btn').addEventListener('click', function() {
+      document.getElementById('home').scrollIntoView({behavior: 'smooth', block: 'center'});
+    })
+    document.getElementById('au-btn').addEventListener('click', function() {
+      document.getElementById('au').scrollIntoView({behavior: 'smooth', block: 'center'});
+    })
+    function addContrast() {
+      document.body.classList.toggle('contrast');
+    }
+  </script>
+  <script src="script.js"></script>
+</html>

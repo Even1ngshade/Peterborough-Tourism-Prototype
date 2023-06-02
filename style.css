@@ -1003,11 +1003,11 @@ footer span:hover {
   #hotels {
     flex-direction: column;
     align-items: center;
-    height: 2500px;
+    height: 1400px;
   }
   
   #hotels div {
-    height: 730px;
+    height: 220px;
     display: flex;
     align-content: center;
     flex-wrap: wrap;

@@ -1016,10 +1016,47 @@ footer span:hover {
 
   .container {
     position: relative;
-    height: 140px !important;
+    height: 150px !important;
   }
   
-  #hotels img {
-    height: 140px;
-    width: 190px;
+  #hotels img, #campsites img, #history img, #nature img, #food img, #activities img {
+    height: 180px;
+    width: 210px;
   }
+  
+  #campsites {
+    align-items: center;
+    height: 870px;
+  }
+
+  .camp {
+    height: 520px;
+  }
+
+  #campsites .container {
+    position: relative;
+    height: 155px !important;
+  }
+  
+  #campsites img {
+    height: 160px;
+    width: 220px;
+  }
+
+  #food {
+    height: 1400px;
+  }
+
+  #food div {
+    height: 200px;
+  }
+
+  #activities {
+    height: 1000px;
+  }
+
+  #activities img {
+    height: 160px;
+    width: 210px;
+  }
+}

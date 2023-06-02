@@ -203,8 +203,10 @@ a:hover {
   display: none;
   position: fixed;
   background: #7ea689;
-  height: 150px;
+  height: 80px;
   width: 110px;
+  top: 80px;
+  right: 0px;
   text-align: center;
   font-family: Teko;
 }
@@ -835,6 +837,7 @@ footer span:hover {
     background: #7ea689;
     height: 80px;
     width: 100px;
+    top: 160px;
     text-align: center;
     font-family: Teko;
     padding: 0px;

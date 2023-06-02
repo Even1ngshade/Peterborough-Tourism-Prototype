@@ -578,7 +578,7 @@ label {
   justify-content: center;
 }
 
-#activities div {
+#activities .container {
   height: 345px;
   display: flex;
   align-items: center;
@@ -738,7 +738,6 @@ footer span:hover {
 
 .f-i4 {
   padding: 0px;
-  height: 70px;
 }
 
 .f-c2 {
@@ -800,6 +799,11 @@ footer span:hover {
 @media screen and (max-width:768px) {
   .flex-container {
     display: block;
+    height: 280px;
+  }
+  
+  .f-c2 {
+    height: 35px;
   }
 
   .menu {
@@ -1000,18 +1004,20 @@ footer span:hover {
     margin-left: 0px;
   }
 
+  .nav h2 {
+    font-size: 21px;
+  }
+
   #hotels {
     flex-direction: column;
     align-items: center;
-    height: 1400px;
+    height: 3000px;
   }
   
   #hotels div {
-    height: 220px;
+    height: 560px;
     display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-content: space-around;
   }
 
   .container {
@@ -1026,37 +1032,56 @@ footer span:hover {
   
   #campsites {
     align-items: center;
-    height: 870px;
+    height: 1550px;
   }
 
   .camp {
-    height: 520px;
+    flex-direction: column;
   }
 
   #campsites .container {
     position: relative;
-    height: 155px !important;
+    height: 170px !important;
   }
   
   #campsites img {
     height: 160px;
     width: 220px;
   }
+  
+  #history {
+    height: 1000px;
+  }
+
+  #events, #nature {
+    height: 800px;
+  }
 
   #food {
-    height: 1400px;
+    height: 1900px;
   }
 
   #food div {
-    height: 200px;
+    height: 300px;
+    flex-direction: column;
   }
 
   #activities {
-    height: 1000px;
+    height: 3000px;
   }
 
   #activities img {
     height: 160px;
     width: 210px;
+  }
+
+  .activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .bars .centred {
+    top: 80%;
   }
 }
